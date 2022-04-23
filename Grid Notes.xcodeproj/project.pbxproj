@@ -15,12 +15,40 @@
 		0C1CA6EC2808CB22008CCA9A /* Grid_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C02808CB21008CCA9A /* Grid_Notes.xcdatamodeld */; };
 		0C1CA6ED2808CB22008CCA9A /* Grid_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C22808CB21008CCA9A /* Grid_NotesApp.swift */; };
 		0C1CA6EE2808CB22008CCA9A /* Grid_NotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C22808CB21008CCA9A /* Grid_NotesApp.swift */; };
-		0C1CA6EF2808CB22008CCA9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C32808CB21008CCA9A /* ContentView.swift */; };
-		0C1CA6F02808CB22008CCA9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C32808CB21008CCA9A /* ContentView.swift */; };
 		0C1CA6F12808CB22008CCA9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C42808CB21008CCA9A /* Persistence.swift */; };
 		0C1CA6F22808CB22008CCA9A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C42808CB21008CCA9A /* Persistence.swift */; };
 		0C1CA6F32808CB22008CCA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C52808CB22008CCA9A /* Assets.xcassets */; };
 		0C1CA6F42808CB22008CCA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1CA6C52808CB22008CCA9A /* Assets.xcassets */; };
+		0C1CA705280B160A008CCA9A /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA704280B160A008CCA9A /* NoteView.swift */; };
+		0C1CA708280B1643008CCA9A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA707280B1643008CCA9A /* Note.swift */; };
+		0C1CA70A280B1677008CCA9A /* PreviewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA709280B1677008CCA9A /* PreviewNoteView.swift */; };
+		0C1CA70B280B1778008CCA9A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA707280B1643008CCA9A /* Note.swift */; };
+		0C1CA70C280B177E008CCA9A /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA704280B160A008CCA9A /* NoteView.swift */; };
+		0C1CA70D280B1783008CCA9A /* PreviewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1CA709280B1677008CCA9A /* PreviewNoteView.swift */; };
+		0CCEE2A22813A59C00E02011 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A12813A59C00E02011 /* GridViewModel.swift */; };
+		0CCEE2A32813A59C00E02011 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A12813A59C00E02011 /* GridViewModel.swift */; };
+		0CCEE2A52813A5C400E02011 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A42813A5C400E02011 /* GridView.swift */; };
+		0CCEE2A62813A5C400E02011 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A42813A5C400E02011 /* GridView.swift */; };
+		0CCEE2AA2813A69200E02011 /* NotesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A92813A69200E02011 /* NotesRepository.swift */; };
+		0CCEE2AB2813A69200E02011 /* NotesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2A92813A69200E02011 /* NotesRepository.swift */; };
+		0CCEE2AD2813A74100E02011 /* NotesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2AC2813A74100E02011 /* NotesUseCase.swift */; };
+		0CCEE2AE2813A74100E02011 /* NotesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2AC2813A74100E02011 /* NotesUseCase.swift */; };
+		0CCEE2B12813A86200E02011 /* NotesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B02813A86200E02011 /* NotesDataSource.swift */; };
+		0CCEE2B22813A86200E02011 /* NotesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B02813A86200E02011 /* NotesDataSource.swift */; };
+		0CCEE2BA2813B3C500E02011 /* CDNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B82813B3C500E02011 /* CDNote+CoreDataClass.swift */; };
+		0CCEE2BB2813B3C500E02011 /* CDNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B82813B3C500E02011 /* CDNote+CoreDataClass.swift */; };
+		0CCEE2BC2813B3C500E02011 /* CDNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B92813B3C500E02011 /* CDNote+CoreDataProperties.swift */; };
+		0CCEE2BD2813B3C500E02011 /* CDNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2B92813B3C500E02011 /* CDNote+CoreDataProperties.swift */; };
+		0CCEE2C12813C10100E02011 /* CGFloat+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C02813C10100E02011 /* CGFloat+extension.swift */; };
+		0CCEE2C22813C10100E02011 /* CGFloat+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C02813C10100E02011 /* CGFloat+extension.swift */; };
+		0CCEE2C5281489EC00E02011 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C4281489EC00E02011 /* SourceCodePro-Regular.ttf */; };
+		0CCEE2C6281489EC00E02011 /* SourceCodePro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C4281489EC00E02011 /* SourceCodePro-Regular.ttf */; };
+		0CCEE2C8281489FD00E02011 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C7281489FD00E02011 /* Fonts.swift */; };
+		0CCEE2C9281489FD00E02011 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2C7281489FD00E02011 /* Fonts.swift */; };
+		0CCEE2CC281494EA00E02011 /* CourierPrime-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE2CB281494EA00E02011 /* CourierPrime-Regular.ttf */; };
+		0CCEE2CD281494EA00E02011 /* CourierPrime-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CCEE2CB281494EA00E02011 /* CourierPrime-Regular.ttf */; };
+		0CCEE2CF2814980300E02011 /* NSTextView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2CE2814980300E02011 /* NSTextView+extension.swift */; };
+		0CCEE2D02814980300E02011 /* NSTextView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE2CE2814980300E02011 /* NSTextView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +71,6 @@
 /* Begin PBXFileReference section */
 		0C1CA6C12808CB21008CCA9A /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		0C1CA6C22808CB21008CCA9A /* Grid_NotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid_NotesApp.swift; sourceTree = "<group>"; };
-		0C1CA6C32808CB21008CCA9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C1CA6C42808CB21008CCA9A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0C1CA6C52808CB22008CCA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1CA6CA2808CB22008CCA9A /* Grid Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grid Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +82,22 @@
 		0C1CA6E32808CB22008CCA9A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1CA6E72808CB22008CCA9A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		0C1CA6E92808CB22008CCA9A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0C1CA704280B160A008CCA9A /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		0C1CA707280B1643008CCA9A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		0C1CA709280B1677008CCA9A /* PreviewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewNoteView.swift; sourceTree = "<group>"; };
+		0CCEE2A12813A59C00E02011 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		0CCEE2A42813A5C400E02011 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		0CCEE2A92813A69200E02011 /* NotesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesRepository.swift; sourceTree = "<group>"; };
+		0CCEE2AC2813A74100E02011 /* NotesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUseCase.swift; sourceTree = "<group>"; };
+		0CCEE2B02813A86200E02011 /* NotesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDataSource.swift; sourceTree = "<group>"; };
+		0CCEE2B82813B3C500E02011 /* CDNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0CCEE2B92813B3C500E02011 /* CDNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CDNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0CCEE2C02813C10100E02011 /* CGFloat+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+extension.swift"; sourceTree = "<group>"; };
+		0CCEE2C4281489EC00E02011 /* SourceCodePro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceCodePro-Regular.ttf"; sourceTree = "<group>"; };
+		0CCEE2C7281489FD00E02011 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0CCEE2CA28148A4100E02011 /* Grid-Notes--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Grid-Notes--iOS--Info.plist"; sourceTree = "<group>"; };
+		0CCEE2CB281494EA00E02011 /* CourierPrime-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CourierPrime-Regular.ttf"; sourceTree = "<group>"; };
+		0CCEE2CE2814980300E02011 /* NSTextView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +135,7 @@
 		0C1CA6BA2808CB21008CCA9A = {
 			isa = PBXGroup;
 			children = (
+				0CCEE2CA28148A4100E02011 /* Grid-Notes--iOS--Info.plist */,
 				0C1CA6BF2808CB21008CCA9A /* Shared */,
 				0C1CA6D12808CB22008CCA9A /* macOS */,
 				0C1CA6DA2808CB22008CCA9A /* Tests iOS */,
@@ -103,11 +147,13 @@
 		0C1CA6BF2808CB21008CCA9A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0CCEE2BE2813C0E800E02011 /* App */,
+				0CCEE2AF2813A84500E02011 /* Data */,
+				0CCEE2A82813A66A00E02011 /* Presentation */,
+				0CCEE2A72813A66200E02011 /* Domain */,
 				0C1CA6C22808CB21008CCA9A /* Grid_NotesApp.swift */,
-				0C1CA6C32808CB21008CCA9A /* ContentView.swift */,
 				0C1CA6C42808CB21008CCA9A /* Persistence.swift */,
 				0C1CA6C52808CB22008CCA9A /* Assets.xcassets */,
-				0C1CA6C02808CB21008CCA9A /* Grid_Notes.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -147,6 +193,114 @@
 				0C1CA6E92808CB22008CCA9A /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		0C1CA703280B15FD008CCA9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C1CA704280B160A008CCA9A /* NoteView.swift */,
+				0C1CA709280B1677008CCA9A /* PreviewNoteView.swift */,
+				0CCEE2A12813A59C00E02011 /* GridViewModel.swift */,
+				0CCEE2A42813A5C400E02011 /* GridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CCEE2A72813A66200E02011 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2B52813A89300E02011 /* UseCases */,
+				0CCEE2B42813A88A00E02011 /* Repositories */,
+				0CCEE2B32813A88300E02011 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0CCEE2A82813A66A00E02011 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2C3281489AB00E02011 /* Fonts */,
+				0C1CA703280B15FD008CCA9A /* Views */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0CCEE2AF2813A84500E02011 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0C1CA6C02808CB21008CCA9A /* Grid_Notes.xcdatamodeld */,
+				0CCEE2B72813B28500E02011 /* DataSources */,
+				0CCEE2B62813B27C00E02011 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0CCEE2B32813A88300E02011 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0C1CA707280B1643008CCA9A /* Note.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0CCEE2B42813A88A00E02011 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2A92813A69200E02011 /* NotesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0CCEE2B52813A89300E02011 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2AC2813A74100E02011 /* NotesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		0CCEE2B62813B27C00E02011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2B82813B3C500E02011 /* CDNote+CoreDataClass.swift */,
+				0CCEE2B92813B3C500E02011 /* CDNote+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CCEE2B72813B28500E02011 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2B02813A86200E02011 /* NotesDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		0CCEE2BE2813C0E800E02011 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2BF2813C0F000E02011 /* Extensions */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0CCEE2BF2813C0F000E02011 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2C02813C10100E02011 /* CGFloat+extension.swift */,
+				0CCEE2CE2814980300E02011 /* NSTextView+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CCEE2C3281489AB00E02011 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE2CB281494EA00E02011 /* CourierPrime-Regular.ttf */,
+				0CCEE2C4281489EC00E02011 /* SourceCodePro-Regular.ttf */,
+				0CCEE2C7281489FD00E02011 /* Fonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +429,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1CA6F32808CB22008CCA9A /* Assets.xcassets in Resources */,
+				0CCEE2CC281494EA00E02011 /* CourierPrime-Regular.ttf in Resources */,
+				0CCEE2C5281489EC00E02011 /* SourceCodePro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C1CA6F42808CB22008CCA9A /* Assets.xcassets in Resources */,
+				0CCEE2CD281494EA00E02011 /* CourierPrime-Regular.ttf in Resources */,
+				0CCEE2C6281489EC00E02011 /* SourceCodePro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +465,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCEE2C8281489FD00E02011 /* Fonts.swift in Sources */,
+				0CCEE2BC2813B3C500E02011 /* CDNote+CoreDataProperties.swift in Sources */,
+				0CCEE2A22813A59C00E02011 /* GridViewModel.swift in Sources */,
+				0CCEE2C12813C10100E02011 /* CGFloat+extension.swift in Sources */,
+				0CCEE2AA2813A69200E02011 /* NotesRepository.swift in Sources */,
 				0C1CA6EB2808CB22008CCA9A /* Grid_Notes.xcdatamodeld in Sources */,
+				0CCEE2AD2813A74100E02011 /* NotesUseCase.swift in Sources */,
+				0C1CA705280B160A008CCA9A /* NoteView.swift in Sources */,
+				0C1CA70A280B1677008CCA9A /* PreviewNoteView.swift in Sources */,
 				0C1CA6F12808CB22008CCA9A /* Persistence.swift in Sources */,
+				0CCEE2BA2813B3C500E02011 /* CDNote+CoreDataClass.swift in Sources */,
+				0CCEE2CF2814980300E02011 /* NSTextView+extension.swift in Sources */,
 				0C1CA6ED2808CB22008CCA9A /* Grid_NotesApp.swift in Sources */,
-				0C1CA6EF2808CB22008CCA9A /* ContentView.swift in Sources */,
+				0CCEE2B12813A86200E02011 /* NotesDataSource.swift in Sources */,
+				0CCEE2A52813A5C400E02011 /* GridView.swift in Sources */,
+				0C1CA708280B1643008CCA9A /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +488,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCEE2C9281489FD00E02011 /* Fonts.swift in Sources */,
+				0CCEE2BD2813B3C500E02011 /* CDNote+CoreDataProperties.swift in Sources */,
+				0CCEE2A32813A59C00E02011 /* GridViewModel.swift in Sources */,
+				0CCEE2C22813C10100E02011 /* CGFloat+extension.swift in Sources */,
+				0CCEE2AB2813A69200E02011 /* NotesRepository.swift in Sources */,
+				0C1CA70B280B1778008CCA9A /* Note.swift in Sources */,
+				0CCEE2AE2813A74100E02011 /* NotesUseCase.swift in Sources */,
 				0C1CA6EC2808CB22008CCA9A /* Grid_Notes.xcdatamodeld in Sources */,
+				0C1CA70D280B1783008CCA9A /* PreviewNoteView.swift in Sources */,
+				0C1CA70C280B177E008CCA9A /* NoteView.swift in Sources */,
+				0CCEE2BB2813B3C500E02011 /* CDNote+CoreDataClass.swift in Sources */,
+				0CCEE2D02814980300E02011 /* NSTextView+extension.swift in Sources */,
 				0C1CA6F22808CB22008CCA9A /* Persistence.swift in Sources */,
+				0CCEE2B22813A86200E02011 /* NotesDataSource.swift in Sources */,
 				0C1CA6EE2808CB22008CCA9A /* Grid_NotesApp.swift in Sources */,
-				0C1CA6F02808CB22008CCA9A /* ContentView.swift in Sources */,
+				0CCEE2A62813A5C400E02011 /* GridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +660,7 @@
 				DEVELOPMENT_TEAM = 74949Q8UPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grid-Notes--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,6 +691,7 @@
 				DEVELOPMENT_TEAM = 74949Q8UPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grid-Notes--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
